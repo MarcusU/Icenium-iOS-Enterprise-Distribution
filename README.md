@@ -1,7 +1,7 @@
 Icenium-iOS-Enterprise-Distribution
 ===================================
 
-This is a short example outlining how to publish In-House iOS apps if built in Icenium.
+This is a short guide outlining the steps to publish In-House iOS apps if built in Icenium. I could not find any definitive documentation how on to do this (generating the appropriate .plist file was the problem).
 This tutorial assumes you already have your iOS Development Program Enterprise account, and a server to host it on.
 
 
@@ -9,7 +9,7 @@ This tutorial assumes you already have your iOS Development Program Enterprise a
 
 2. Move your .ipa file to your server
     
-3. Create your .plist file: This is where I didn't find any real documentation/functionallity in Icenium. I had to manually create the plist file and enter in the values. Create a new file with the extension .plist in the same directory as your .ipa. Paste [the following](https://gist.github.com/hramos/774468) into that file. Edit the appropriate values.
+3. Create your .plist file: Usually this would be created in XCode after building the app. Since we're using Icenium, we have to manually create the plist file and enter in the values. Create a new file with the extension .plist in the same directory as your .ipa. Paste [the following](https://gist.github.com/hramos/774468) into that file. Edit the appropriate values.
 
 4. Create a link to your .plist file
 ```
