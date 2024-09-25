@@ -9,7 +9,7 @@ This tutorial assumes you already have your iOS Development Program Enterprise a
 
 2. Move your .ipa file to your server
     
-3. Create your .plist file: Usually this would be created in XCode after building the app. Since we're using Icenium, we have to manually create the plist file and enter in the values. Create a new file with the extension .plist in the same directory as your .ipa. Paste [the following](https://gist.github.com/GMofOLC/11232418) into that file. Edit the appropriate values.
+3. Create your .plist file: Usually this would be created in XCode after building the app. Since we're using Icenium, we have to manually create the plist file and enter in the values. Create a new file with the extension .plist in the same directory as your .ipa. Paste [the following](https://gist.github.com/MarcusU/11232418) into that file. Edit the appropriate values.
 
 4. Create a link to your .plist file
 ```
